@@ -53,25 +53,7 @@ Install the required Python libraries using the requirements.txt file:
 ```bash
 pip install -r requirements.txt
 ```
-### 6. Initialize the Database
-Run the following commands to set up the database:
-
-#### Initialize the database:
-
-```bash
-flask --app app.py db init
-```
-#### Generate migration scripts:
-
-```bash
-flask --app app.py db migrate
-```
-#### Apply the migrations to the database:
-
-```bash
-flask --app app.py db upgrade
-```
-### 7. Run the Application
+### 6. Run the Application
 Start the application by running the app.py file:
 
 ```bash
